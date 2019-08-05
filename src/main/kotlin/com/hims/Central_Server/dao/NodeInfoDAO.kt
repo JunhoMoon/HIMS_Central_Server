@@ -7,7 +7,7 @@ import org.springframework.data.repository.query.Param
 import org.springframework.stereotype.Repository
 
 @Repository
-interface NodeInfoDAO: CrudRepository<NodeInfo, String>{
+internal interface NodeInfoDAO: CrudRepository<NodeInfo, String>{
     override fun findAll(): MutableIterable<NodeInfo> {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }

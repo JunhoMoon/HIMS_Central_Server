@@ -28,8 +28,10 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.0")
+	implementation ("com.squareup.retrofit2:converter-gson:2.4.0")
 
 	compile ("com.oracle:ojdbc6:11.2.0.3")
+	compile ("com.googlecode.json-simple:json-simple:1.1.1")
 
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
